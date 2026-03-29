@@ -1,15 +1,12 @@
-# YOLOv8 Nano — Training Results
+# YOLOv8n Results
 
-## Metrics
-| Metric | Validation | Test |
-|--------|-----------|------|
-| mAP50 | 0.XX | 0.XX |
-| mAP50-95 | 0.XX | 0.XX |
-| Precision | 0.XX | - |
-| Recall | 0.XX | - |
+| Metric    | Value  |
+|-----------|--------|
+| mAP50     | 0.7832 |
+| mAP50-95  | 0.4667 |
+| Precision | 0.8915 |
+| Recall    | 0.6875 |
 
-## Settings
+- Model: YOLOv8 Nano
 - Epochs: 50
-- Image Size: 640
-- Batch Size: 16
-- Dataset: safety-3
+- Dataset: css-data (2801 images, 10 classes)
